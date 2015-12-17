@@ -1,0 +1,65 @@
+Changelog Legend:
+
+[+] = Added
+[*] = Changed
+[^] = Moved
+[=] = No Changes
+[x] = Deleted
+[!] = Bugs
+
+----
+
+(27/10/2015) - Update - Version 2.1.2
+
+[*] Updated the TGM Plugin Activation to the version 2.5.2.
+[!] Fixed problem with floating of the Reply form in the Comments section.
+
+----
+
+(17/09/2015) - Update - Version 2.1.1
+
+[+] Added ability to use the "nextpage" tag on pages.
+[+] Added Dutch translation.
+[+] Added support for the "pingback" link in "head" section.
+
+----
+
+(02/06/2015) - Update - Version 2.1.0
+
+[*] Updated the TGM Plugin Activation to the version 2.4.2.
+[*] Updated German translation.
+[!] Fixed displaying of search results if there is no pagination.
+
+----
+
+(22/04/2015) - Update - Version 2.0.1
+
+[*] Specified a recommended height of the Header Image.
+[*] Escaped "alt" attribute (get_bloginfo( 'name' )) of the Header Logo.
+[*] Enqueued an user-defined Favicon via "functions.php".
+[*] Updated the TGM Plugin Activation to the version 2.4.1. 
+
+----
+
+(20/04/2015) - Update - Version 2.0.0
+
+[*] Moved the Theme Options to the live Customizer.
+[*] Updated theme documentation.
+[*] Updated translations.
+
+----
+
+(17/03/2015) - Update - Version 1.0.2
+
+[*] Updated displaying of drop-down submenus.
+
+----
+
+(12/01/2015) - Update - Version 1.0.1
+
+[*] Used wp_add_inline_style for the Theme Options output.
+[*] Updated theme screenshot.
+
+----
+
+(08/01/2015) - The initial public release. - Version 1.0.0

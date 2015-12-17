@@ -1,0 +1,882 @@
+# Translation of the WordPress theme HappenStance 1.1 by Tomas Toman.
+# This file is distributed under the same license as the HappenStance package.
+# Tomas Toman <support@tomastoman.cz>, 2015.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: HappenStance 1.1\n"
+"POT-Creation-Date: 2014-11-29 08:37+0100\n"
+"PO-Revision-Date: 2015-11-16 10:34+0100\n"
+"Last-Translator: Tomas Toman\n"
+"Language-Team: Tomas Toman\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: 404.php:9 search.php:45
+msgid "Nothing Found"
+msgstr "Niets gevonden"
+
+#: 404.php:13
+msgid ""
+"Apologies, but no results were found for your request. Perhaps searching "
+"will help you to find a related content."
+msgstr ""
+"Sorry, er zijn geen resultaten gevonden voor uw verzoek. Misschien helpt het "
+"om gerelateerde zoektermen te gebruiken."
+
+#: archive.php:11
+#, php-format
+msgid "Daily Archive: %s"
+msgstr "Archief per Dag: %s"
+
+#: archive.php:13
+#, php-format
+msgid "Monthly Archive: %s"
+msgstr "Archief per Maand: %s"
+
+#: archive.php:15
+#, php-format
+msgid "Yearly Archive: %s"
+msgstr "Archief per Jaar: %s"
+
+#: archive.php:17
+msgid "Archive"
+msgstr "Archief"
+
+#: author.php:11
+#, php-format
+msgid "Author Archive: %s"
+msgstr "Archief voor Auteur: %s"
+
+#: comments.php:15 content-archives.php:18 content-grid.php:22 single.php:21
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "1 Reactie"
+msgstr[1] "%1$s Reacties"
+
+#: comments.php:24
+msgid "&larr; Older Comments"
+msgstr "&larr; Oudere Reacties"
+
+#: comments.php:25
+msgid "Newer Comments &rarr;"
+msgstr "Nieuwere Reacties &rarr;"
+
+#: comments.php:31
+msgid "Comments are closed."
+msgstr "Geen reacties toegestaan."
+
+#: comments.php:36
+msgid "Your name"
+msgstr "Uw naam"
+
+#: comments.php:37
+msgid "Website"
+msgstr "Website"
+
+#: comments.php:38
+msgid "Comment..."
+msgstr "Reactie..."
+
+#: comments.php:42
+msgid "Leave a Comment"
+msgstr "Laat een reactie achter"
+
+#: functions.php:119
+msgid "Main Header Menu"
+msgstr "Belangrijkste Header Menu"
+
+#: functions.php:129
+msgid "Right Sidebar"
+msgstr "Hoofd Zijbalk"
+
+#: functions.php:131
+msgid "Right sidebar which appears on all posts and pages."
+msgstr "Rechter zijbalk die op berichten en pagina's te zien is."
+
+#: functions.php:138
+msgid "Footer left widget area"
+msgstr "Voettekst linker widget ruimte"
+
+#: functions.php:140
+msgid "Left column with widgets in footer."
+msgstr "Linker kolom met widgets in de voettekst."
+
+#: functions.php:147
+msgid "Footer middle widget area"
+msgstr "Voettekst centrale widget ruimte"
+
+#: functions.php:149
+msgid "Middle column with widgets in footer."
+msgstr "Middelste kolom met widgets in de voettekst."
+
+#: functions.php:156
+msgid "Footer right widget area"
+msgstr "Voettekst rechter widget ruimte"
+
+#: functions.php:158
+msgid "Right column with widgets in footer."
+msgstr "Rechter kolom met widgets in voettekst."
+
+#: functions.php:165
+msgid "Footer notices"
+msgstr "Voettekst mededelingen"
+
+#: functions.php:167
+msgid ""
+"The line for copyright and other notices below the footer widget areas. "
+"Insert here one Text widget. The \"Title\" field at this widget should stay "
+"empty."
+msgstr ""
+"De regel voor copyright en andere mededelingen onder de voettekst widget "
+"ruimte."
+
+#: functions.php:189
+msgid "Read more"
+msgstr "Lees meer"
+
+#: functions.php:203
+msgid "Post navigation"
+msgstr "Bericht navigatie"
+
+#: functions.php:211 search.php:32
+msgid "&larr; Previous"
+msgstr "&larr; Vorig"
+
+#: functions.php:212 search.php:33
+msgid "Next &rarr;"
+msgstr "Volgend &rarr;"
+
+#: functions.php:235
+msgid "&larr; Previous post"
+msgstr "&larr; Vorig bericht"
+
+#: functions.php:237
+msgid "Next post &rarr;"
+msgstr "Volgend bericht &rarr;"
+
+#: functions.php:255
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:255
+msgid "(Edit)"
+msgstr "(Bewerken)"
+
+#: functions.php:268
+msgid "(Post author)"
+msgstr "(Auteur bericht)"
+
+#: functions.php:274
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s om %2$s"
+
+#: functions.php:280
+msgid "Your comment is awaiting moderation."
+msgstr "Uw reactie wordt vastgehouden voor moderatie."
+
+#: functions.php:286
+msgid "Reply"
+msgstr "Reageren"
+
+#: functions.php:288 page.php:17 single.php:34 template-full-width.php:18
+#: template-landing-page.php:17 template-without-title.php:19
+#: template-full-width-without-title.php:19
+msgid "Edit"
+msgstr "Bewerken"
+
+#: functions.php:376
+msgid "Install Recommended Plugins"
+msgstr ""
+
+#: functions.php:377 class-tgm-plugin-activation.php:335
+#, fuzzy
+msgid "Install Plugins"
+msgstr "Installeer Plugins"
+
+#: functions.php:378
+#, php-format
+msgid ""
+"The %1$s plugin is required for this theme. Click on the big blue button "
+"below to install and activate %1$s."
+msgstr ""
+
+#: functions.php:379
+#, php-format
+msgid ""
+"The %1$s is installed but currently inactive. Please go to the <a href=\"%2$s"
+"\">plugin administration page</a> page to activate it."
+msgstr ""
+
+#: functions.php:380
+#, php-format
+msgid "Install %s Now"
+msgstr ""
+
+#: functions.php:381 class-tgm-plugin-activation.php:336
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions.php:382 class-tgm-plugin-activation.php:337
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:383
+#, php-format
+msgid ""
+"This theme requires the %1$s plugin. <a href=\"%2$s\"><strong>Click here to "
+"begin the installation process</strong></a>. You may be asked for FTP "
+"credentials based on your server setup."
+msgstr ""
+
+#: functions.php:384
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr ""
+
+#: functions.php:385
+#, php-format
+msgid ""
+"This theme requires the %1$s plugin. That plugin is currently inactive, so "
+"please go to the <a href=\"%2$s\">plugin administration page</a> to activate "
+"it."
+msgstr ""
+
+#: functions.php:386
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr ""
+
+#: functions.php:387
+msgid "Return to Recommended Plugins Installer"
+msgstr ""
+
+#: index.php:8
+msgid "Latest Posts"
+msgstr "Laatste berichten"
+
+#: page.php:16 single.php:33 template-full-width.php:17
+#: template-landing-page.php:16 template-without-title.php:18
+#: template-full-width-without-title.php:18
+msgid "Pages:"
+msgstr "Pagina:"
+
+#: search.php:10
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Zoekresultaten voor: %s"
+
+#: search.php:13
+msgid "Number of Results: "
+msgstr "Aantal Resultaten:"
+
+#: search.php:24
+msgid "Search results navigation"
+msgstr "Zoekresultaten navigatie"
+
+#: search.php:48
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+"Sorry, er zijn geen resultaten gevonden voor uw zoekopdracht. Probeer het a."
+"u.b. opnieuw met andere bewoordingen."
+
+#: searchform.php:9
+msgid "Search here..."
+msgstr "Zoeken..."
+
+#: tag.php:10
+#, php-format
+msgid "Tag Archive: %s"
+msgstr "Tag Archief: %s"
+
+#: class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:398
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:399
+msgid "Return to the dashboard"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:400 class-tgm-plugin-activation.php:3030
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:401 class-tgm-plugin-activation.php:2833
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:402
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:403
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:404
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:405
+msgid "Dismiss this notice"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:406
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2168
+msgid "Required"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2171
+msgid "Recommended"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2187
+msgid "WordPress Repository"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2190
+msgid "External Source"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2193
+msgid "Pre-Packaged"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2210
+msgid "Not Installed"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2214
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2216
+msgid "Active"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2222
+msgid "Required Update not Available"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2225
+msgid "Requires Update"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2228
+msgid "Update recommended"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2284
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2287
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2290
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2380
+msgid "Installed version:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2388
+msgid "Minimum required version:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2400
+msgid "Available version:"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2423
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2437
+msgid "Plugin"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2438
+msgid "Source"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2439
+msgid "Type"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2443
+msgid "Version"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2444
+msgid "Status"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2604
+msgid "Install"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2610
+msgid "Update"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2613
+msgid "Activate"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2644
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2646
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2682
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:2684
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3029
+msgid "Plugin activation failed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3363
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3365
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3366
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3370
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3371
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3372
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3373
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3376
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3378
+msgid "All installations have been completed."
+msgstr ""
+
+#: class-tgm-plugin-activation.php:3379
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions/customizer.php:334
+#, fuzzy
+msgid "HappenStance General Settings"
+msgstr "Reset alle instellingen"
+
+#: functions/customizer.php:339
+#, fuzzy
+msgid "HappenStance Header Settings"
+msgstr "HappenStance"
+
+#: functions/customizer.php:344
+#, fuzzy
+msgid "HappenStance Posts/Pages Settings"
+msgstr "HappenStance"
+
+#: functions/customizer.php:349
+msgid "HappenStance Post Entries/Blog Page Settings"
+msgstr ""
+
+#: functions/customizer.php:354
+#, fuzzy
+msgid "HappenStance Font Settings"
+msgstr "HappenStance"
+
+#: functions/customizer.php:370
+msgid "Color Scheme"
+msgstr ""
+
+#: functions/customizer.php:375
+msgid "Blue (default)"
+msgstr ""
+
+#: functions/customizer.php:376
+msgid "Gray"
+msgstr ""
+
+#: functions/customizer.php:377
+msgid "Green"
+msgstr ""
+
+#: functions/customizer.php:378
+msgid "Purple"
+msgstr ""
+
+#: functions/customizer.php:393
+msgid "Layout Style"
+msgstr ""
+
+#: functions/customizer.php:398
+msgid "Boxed"
+msgstr ""
+
+#: functions/customizer.php:399
+msgid "Wide"
+msgstr ""
+
+#: functions/customizer.php:414
+msgid "Display Breadcrumb Navigation"
+msgstr ""
+
+#: functions/customizer.php:419 functions/customizer.php:440
+#: functions/customizer.php:461 functions/customizer.php:512
+#: functions/customizer.php:533 functions/customizer.php:554
+#: functions/customizer.php:612 functions/customizer.php:633
+#: functions/customizer.php:718 functions/customizer.php:739
+#: functions/customizer.php:760 functions/customizer.php:781
+#: functions/customizer.php:823
+msgid "Display"
+msgstr ""
+
+#: functions/customizer.php:420 functions/customizer.php:441
+#: functions/customizer.php:462 functions/customizer.php:513
+#: functions/customizer.php:534 functions/customizer.php:555
+#: functions/customizer.php:613 functions/customizer.php:634
+#: functions/customizer.php:719 functions/customizer.php:740
+#: functions/customizer.php:761 functions/customizer.php:782
+#: functions/customizer.php:824
+msgid "Hide"
+msgstr ""
+
+#: functions/customizer.php:435
+msgid "Display Scroll-top Button"
+msgstr ""
+
+#: functions/customizer.php:456
+msgid "Background Pattern (in Boxed layout style)"
+msgstr ""
+
+#: functions/customizer.php:477
+msgid "Background Pattern Opacity"
+msgstr ""
+
+#: functions/customizer.php:482
+msgid "Default"
+msgstr ""
+
+#: functions/customizer.php:507
+msgid "Display Shadow"
+msgstr ""
+
+#: functions/customizer.php:528
+msgid "Display Sidebar on Posts/Pages"
+msgstr ""
+
+#: functions/customizer.php:549
+msgid "Display Sidebar on Archives"
+msgstr ""
+
+#: functions/customizer.php:570
+#, fuzzy
+msgid "Display Header Image"
+msgstr "Upload Afbeelding"
+
+#: functions/customizer.php:575
+msgid "Everywhere"
+msgstr ""
+
+#: functions/customizer.php:576
+msgid "Only on Homepage"
+msgstr ""
+
+#: functions/customizer.php:591
+#, fuzzy
+msgid "Header Logo"
+msgstr "Header diashow"
+
+#: functions/customizer.php:607
+msgid "Display Site Description"
+msgstr ""
+
+#: functions/customizer.php:628
+msgid "Display Search Form"
+msgstr ""
+
+#: functions/customizer.php:649
+msgid "Postal Address"
+msgstr ""
+
+#: functions/customizer.php:665
+msgid "Email Address"
+msgstr ""
+
+#: functions/customizer.php:681
+msgid "Phone Number"
+msgstr ""
+
+#: functions/customizer.php:697
+msgid "Skype Name"
+msgstr ""
+
+#: functions/customizer.php:713
+msgid "Display Featured Image on single posts"
+msgstr ""
+
+#: functions/customizer.php:734
+msgid "Display Meta Box on single posts"
+msgstr ""
+
+#: functions/customizer.php:755
+#, fuzzy
+msgid "Display Next/Previous Post Navigation on single posts"
+msgstr "Bericht navigatie"
+
+#: functions/customizer.php:776
+msgid "Display Featured Image on pages"
+msgstr ""
+
+#: functions/customizer.php:797
+msgid "Post Entries Format"
+msgstr ""
+
+#: functions/customizer.php:802
+#, fuzzy
+msgid "One Column"
+msgstr "1 Reactie"
+
+#: functions/customizer.php:803
+msgid "Grid - Masonry"
+msgstr ""
+
+#: functions/customizer.php:818
+msgid "Display Meta Box on Post Entries"
+msgstr ""
+
+#: functions/customizer.php:839
+msgid "Content/Excerpt Displaying"
+msgstr ""
+
+#: functions/customizer.php:844
+msgid "Excerpt"
+msgstr ""
+
+#: functions/customizer.php:845
+msgid "Content"
+msgstr ""
+
+#: functions/customizer.php:860
+#, fuzzy
+msgid "Excerpt Length (number of words)"
+msgstr "Uittreksel lengte (woorden):"
+
+#: functions/customizer.php:876
+msgid "Latest Posts (Blog) page headline"
+msgstr ""
+
+#: functions/customizer.php:893
+msgid "Body font"
+msgstr ""
+
+#: functions/customizer.php:911
+msgid "Site Title font"
+msgstr ""
+
+#: functions/customizer.php:929
+msgid "Site Description font"
+msgstr ""
+
+#: functions/customizer.php:947
+msgid "Page/Post Headlines (h1 - h6) font"
+msgstr ""
+
+#: functions/customizer.php:965
+msgid "Post Entry Headline font"
+msgstr ""
+
+#: functions/customizer.php:983
+msgid "Sidebar/Footer Widget Headlines font"
+msgstr ""
+
+#: functions/customizer.php:1001
+#, fuzzy
+msgid "Main Header Menu font"
+msgstr "Belangrijkste Header Menu"
+
+#: functions/customizer.php:1018
+msgid "Custom CSS"
+msgstr ""
+
+#: functions/about/about.php:12
+#, fuzzy
+msgid "HappenStance"
+msgstr "HappenStance"
+
+#: functions/about/about.php:23
+msgid "<i class=\"icon_house\" aria-hidden=\"true\"></i>Welcome"
+msgstr ""
+
+#: functions/about/about.php:30
+msgid "<i class=\"icon_cart\" aria-hidden=\"true\"></i>GET PREMIUM"
+msgstr ""
+
+#: functions/about/about.php:50
+#, fuzzy
+msgid "Welcome to HappenStance!"
+msgstr "HappenStance"
+
+#: functions/about/about.php:54
+msgid ""
+"First of all, I would like to thank you for choosing the HappenStance theme! "
+"I firmly believe that you will be satisfied with this template."
+msgstr ""
+
+#: functions/about/about.php:57 functions/about/about.php:147
+#, fuzzy
+msgid "About HappenStance"
+msgstr "HappenStance"
+
+#: functions/about/about.php:61
+msgid ""
+"HappenStance is an easily customizable theme which can be used for your "
+"Blog, Magazine, Business, eCommerce or Events website. It is a fully "
+"responsive and Retina ready theme that allows for easy viewing on any device."
+msgstr ""
+
+#: functions/about/about.php:64
+msgid ""
+"Since version 2.0.0, the Theme Options have been moved to the <a href="
+"\"customize.php\">Customizer</a>."
+msgstr ""
+
+#: functions/about/about.php:78
+msgid "Get HappenStance Premium Version"
+msgstr ""
+
+#: functions/about/about.php:83
+msgid ""
+"If you would like to purchase the HappenStance Premium Version, you can do "
+"so on <a href=\"http://www.tomastoman.cz/downloads/happenstance/\" target="
+"\"_blank\">Developers Official Website</a>."
+msgstr ""
+
+#: functions/about/about.php:86
+msgid ""
+"<strong>What the HappenStance Premium Version offers in addition?</"
+"strong><br />\n"
+"    - Support for Drag-and-drop Page Builder with 37 in-built widgets for "
+"creating custom page layouts<br />\n"
+"    - 8 pre-defined color schemes (Blue, Gray, Green, Orange, Pink, Purple, "
+"Red and Turquoise)<br />\n"
+"    - Unlimited ability to create custom Color scheme (unlimited color "
+"settings)<br />\n"
+"    - Ability to set different Header Images for the individual pages/posts/"
+"categories<br />\n"
+"    - Ability to set different Header Slideshows for the individual pages/"
+"posts<br />\n"
+"    - Ability to set different Sidebars/Footers for the individual pages/"
+"posts<br />\n"
+"    - Image Slideshow with 3 different templates<br />\n"
+"    - Font size settings<br />\n"
+"    - Related Posts box on the single posts<br />\n"
+"    - 4 dynamic Hover effects for the Post Thumbnails (Fade, Focus, Shadow "
+"and Tilt)<br />\n"
+"    - 6 Custom widgets for displaying the latest posts from the specific "
+"categories (as a Column, Grid, List, Slider, Thumbnails and by Default - One "
+"Column)<br />\n"
+"    - Custom Tab widget (displays popular posts, recent posts, comments and "
+"tags in tabbed format)<br />\n"
+"    - Info-Box Custom widget (displays a text box with an icon)<br />\n"
+"    - Header Carousel box (slider with your Latest Posts or a Custom Menu)"
+"<br />\n"
+"    - Social Network Profile links in header (69 pre-defined icons)<br />\n"
+"    - Facebook Like Box Custom widget<br />\n"
+"    - Twitter Following Custom widget<br />\n"
+"    - Integrated Facebook/Twitter/Google+1 share buttons on posts/pages/post "
+"entries<br />\n"
+"    - Integrated automatic Sitemap generator with advanced options<br />\n"
+"    - Custom Shortcodes for adding buttons, images, slideshows, tables and "
+"highlighted texts anywhere you like<br />\n"
+"    - Custom Shortcode for displaying Google maps<br />\n"
+"    - Custom Shortcode for displaying specific listing of posts anywhere you "
+"like<br />\n"
+"    - 6 Custom Page templates<br />\n"
+"    - Ability to add custom JavaScript code"
+msgstr ""
+
+#: functions/about/about.php:159
+#, fuzzy
+msgid "HappenStance Theme"
+msgstr "HappenStance"
+
+#: functions/about/about.php:164
+msgid "Documentation"
+msgstr ""
+
+#: functions/about/about.php:164
+msgid "Support"
+msgstr ""
+
+#: functions/about/about.php:164
+msgid "Get Premium Version"
+msgstr ""
