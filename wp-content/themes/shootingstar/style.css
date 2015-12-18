@@ -404,7 +404,7 @@ body .header-content-wrapper {
 .header-logo {
   clear: both;
   display: block;
-  height: auto;
+  height: auto;   //G.Chen changed from 'auto', 18/12/2015
   margin: 0;
   max-width: 950px;
   position: relative;
