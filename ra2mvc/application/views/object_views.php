@@ -18,7 +18,7 @@
 
 <?php    
 // test the connection to get result from object_model.php
-require_once(ABSPATH . '/ra2wp/application/models/object_model.php');
+require_once(ABSPATH . '/ra2mvc/application/models/object_model.php');
 $obj_model = new Object_model();
 $object_modify = $obj_model->get_object_with_modify_info();
 

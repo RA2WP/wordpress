@@ -1,8 +1,8 @@
 <?php
-//require_once(ABSPATH. '/ra2wp/application/pages/gabrielsuliman.php');
+//require_once(ABSPATH. '/ra2mvc/application/pages/gabrielsuliman.php');
 ?>
 
-<img src="<?php echo get_site_url();?>/ra2wp/resource/image/gabrielsuliman.jpg" width="300px">
+<img src="<?php echo get_site_url();?>/ra2mvc/resource/image/gabrielsuliman.jpg" width="300px">
 
 <h2> Education:</h2> 
 <ul>

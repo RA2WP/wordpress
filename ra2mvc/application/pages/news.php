@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-//require_once(ABSPATH . '/ra2wp/application/models/object_model.php');
+//require_once(ABSPATH . '/ra2mvc/application/models/object_model.php');
 require(ABSPATH . '/wp-blog-header.php');
 ?>
 

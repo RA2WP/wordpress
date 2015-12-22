@@ -1,8 +1,8 @@
 <?php
-//require_once(ABSPATH. '/ra2wp/application/pages/guanglingchen.php');
+//require_once(ABSPATH. '/ra2mvc/application/pages/guanglingchen.php');
 ?>
 
-<img src="<?php echo get_site_url();?>/ra2wp/resource/image/guanglingchen.jpg" width="300px">
+<img src="<?php echo get_site_url();?>/ra2mvc/resource/image/guanglingchen.jpg" width="300px">
 
 <h2>Education:</h2>
 Doctor of Engineering in Nuclear Technology and Application

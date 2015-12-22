@@ -1,5 +1,5 @@
 <?php
-require_once(ABSPATH . '/ra2wp/application/scripts/object_model.php');
+require_once(ABSPATH . '/ra2mvc/application/scripts/object_model.php');
 $obj_modify = new Object_model();
 $object_modify = $obj_modify->get_object_with_modify_info();
 
