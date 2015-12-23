@@ -12,7 +12,7 @@
   </thead>
   <tbody>
     <tr>
-      <td><a href="<?php echo get_site_url(); ?> /calin-ur/">Calin Ur</a></td>
+      <td><a href="<?php echo get_site_url(); ?> /calin-ur/">Calin Alexandru Ur</a></td>
       <td>##-##</td>
       <td><a href="mailto:calin.ur@eli-np.ro">calin.ur@eli-np.ro</a></td>
       <td>Head of Department</td>
