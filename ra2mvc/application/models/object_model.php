@@ -1,17 +1,16 @@
 <?php
+/**
+ * Object Index
+ *
+ * @package    RA2WP
+ * @subpackage Object
+ */
 
-class Object_model {
+require_once 'ra2wp_wpdb.php';
+class Object_model extends Ra2wp_Wpdb{
 
     public function __construct() {
-    }
-    
-    public function connect() {
-        global $mydb;
-        $mydb = new wpdb('root', 'admin12345', 'ra2wp', 'localhost');
-    }
-
-    public function index() {
-
+        parent::__construct();
     }
 
     public function get_object_with_modify_info($Id = FALSE) {

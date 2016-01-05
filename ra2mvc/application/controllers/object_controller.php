@@ -1,27 +1,26 @@
 <?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * Object Controller
+ *
+ * @package    RA2WP
+ * @subpackage Object
  */
 
-
-//$mydb = new wpdb('root','admin12345','ra2wp','localhost');
-require_once(ABSPATH . '/ra2mvc/application/models/object_model.php');
 require_once 'ra2wp_controller.php';
-
 class Object extends Ra2wp_Controller {
 
-    public function __construct() { 
+    public function __construct() {
         parent::__construct();
+        
+        require_once(ABSPATH . '/ra2mvc/application/models/object_model.php');
+
     }
 
     public function index() {
-
         $obj_model = new Object_model();
         $obj_model->connect();
-        
+
+        require_once(ABSPATH . '/ra2mvc/application/views/object_views.php');
     }
 
     public function view() {
